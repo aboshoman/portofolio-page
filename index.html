@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="./assits/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assits/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assits/fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tarek</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo"><img src="./assits/imgs/tarek&tarek.jpg" alt="">
+                <h1>tarek</h1>
+            </div>
+            <div class="links">
+                <div class="link2"><a href="#about_sec">About</a> </div>
+                <div class="link1"><a href="#work_sec">Work</a> </div>
+                <div class="link2"><a href="#contact_sec">Contact</a> </div>
+            </div>
+        </nav>
+        <section class="section1" id="about_sec">
+            <h1>Junior Full Stack Developer</h1>    
+            <div class="icon">
+                <i class="fas fa-sort-down" style="font-size: 10em;color: #4d9047;"></i>
+            </div>
+            <h3>Helping people turn their ideas into
+                <br>
+                sites & apps that work.</h3>
+        </section>
+        <section class="section2"  id="work_sec">
+            <h1>Work</h1>    
+            <div class="work">
+                <div class="a1">
+                    <h5>Animation text</h5>
+                        <img src="./assits/imgs/anim.png">
+                </div>
+                <div class="a2">
+                    <h5>School Website</h5>
+                    <img src="./assits/imgs/contact-us.png">
+                </div>
+                <div class="a3">
+                    <h5>Responsive contact us page</h5>
+                    <img src="./assits/imgs//first-task.png">
+                </div>
+            </div>
+        </section>
+            <section class="section3"  id="contact_sec">
+            <h1>Contact Me</h1>    
+            <div class="contact">
+                <span class="span"></span>
+                <form action="tarek.php" method="post">
+
+                    <div class="fn-box">                        
+                        <label for="fname">YOUR NAME (REQUIRED)</label>
+                        <input type="text" name="firstname" required autofocus>
+                    </div>
+                    
+                    <div class="mbox">
+                        <label for="mail">YOUR EMAIL (REQUIRED)</label>
+                        <input type="email" name="mail" required>
+                    </div>
+
+                    <div class="ta-box">
+                        <label for="sub">YOUR MESSAGE </label>
+                        <textarea name="sub" maxlength="" cols="55" rows="8"></textarea>
+                    </div>
+
+                    <div class="sub-box">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
